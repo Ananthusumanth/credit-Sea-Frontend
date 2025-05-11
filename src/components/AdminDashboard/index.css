@@ -1,0 +1,16 @@
+.v-dash{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    box-shadow: 1px 1px 4px;
+    margin-bottom: 10px;
+}
+.profile-v {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.img-p{
+    margin-right: 10px;
+}

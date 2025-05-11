@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+import {Switch, Route} from 'react-router-dom';
+import UserDashboardLoan from './components/UserDashboardLoan';
+import UserDashboardApplicationForm from './components/UserDashboardApplicationForm';
+import AdminDashboard from './components/AdminDashboard';
+import VerifiedDashboard from './components/VerifiedDashboard';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path='/' component={UserDashboardLoan} />
+      <Route exact path='/App-Form' component={UserDashboardApplicationForm} />
+      <Route exact path="/Verified" component={VerifiedDashboard} />
+      <Route exact path='/Admin' component={AdminDashboard} />
+    </Switch>
   );
 }
 

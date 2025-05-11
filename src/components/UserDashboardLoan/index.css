@@ -1,0 +1,145 @@
+.user-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 80vw;
+    background-color: rgb(216, 203, 203);
+    min-height: 90vh;
+}
+.get-loan-section {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vh;
+}
+.image-loan {
+    background-color: green;
+    padding: 10px;
+}
+.get-loan-button {
+    background-color:rgb(91, 62, 62);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.buttons-sec-button {
+    width: 251px;
+    height: 55px;
+    background-color: white;
+    box-shadow: 1px 1px 4px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+}
+.buttons-sec-button1 {
+    width: 251px;
+    height: 55px;
+    background-color:#c7dd6d96;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 1px 1px 4px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+.buttons-section {
+    margin-bottom: 10px;
+}
+.input-section {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    padding-left:10px ;
+    width: 70vh;
+    background-color: white;
+}
+.input-search{
+    border: none;
+    margin-left: 10px;
+    width: 68vh;
+   
+}
+.nav-loan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  center;
+}
+.sub {
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+}
+.sup {
+    color: green;
+    font-size: 10px;
+    font-weight: bold;
+}
+.nav-container-loan {
+    width: 95%;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.pending{
+    padding: 5px;
+    background-color: yellow;
+    color: red;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.reject{
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.approved{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.verified{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}

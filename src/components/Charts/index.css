@@ -1,0 +1,21 @@
+.Area-g {
+    border-top: 10px solid violet;
+    box-shadow: 1px 1px 4px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 95%;
+}
+.bar-g {
+    border-top: 10px solid blue;
+    box-shadow: 1px 1px 4px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 95%;
+}
+.bar-g2 {
+    border-top: 10px solid red;
+    box-shadow: 1px 1px 4px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 95%;
+}
