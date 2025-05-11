@@ -49,12 +49,12 @@ function AdminDashboard(props) {
 
     response.verificatiobData.forEach((each) => {
       if (each.status === "VERIFIED"){
-        totalSavings = totalSavings + each.Loan
+        totalSavings = totalSavings + parseInt(each.Loan)
       }
     })
 
     response.verificatiobData.forEach((each) => {
-        totalRecvied = totalRecvied + each.Loan
+        totalRecvied = totalRecvied + parseInt(each.Loan)
     })
 
 

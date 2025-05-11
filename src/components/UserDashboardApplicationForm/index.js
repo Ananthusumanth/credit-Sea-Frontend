@@ -41,13 +41,13 @@ function UserDashboardApplicatioForm() {
             </div>
             <div className='input-div'>
               <label htmlFor='input'>How much do you need?</label>
-              <input type='text' id='input' placeholder='How much do you need?' onChange={(e) => setLoan(e.target.value)} required/>
+              <input type='number' id='input' placeholder='How much do you need?' onChange={(e) => setLoan(e.target.value)} required/>
             </div>
           </div>
           <div className='input-section-2'>
             <div className='input-div'>
               <label htmlFor='input'>{`Loan tenture (in months)`}</label>
-              <input type='text' id='input' placeholder={`Loan tenture (in months)`} onChange={(e) => setLoanINMOnths(e.target.value)} required/>
+              <input type='number' id='input' placeholder={`Loan tenture (in months)`} onChange={(e) => setLoanINMOnths(e.target.value)} required/>
             </div>
             <div className='input-div'>
               <label htmlFor='input'>Employment status</label>
